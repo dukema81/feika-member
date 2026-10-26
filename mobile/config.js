@@ -1,0 +1,2 @@
+window.APP_CONFIG = {"name": "飞卡", "short": "飞卡", "key": "feikamember", "base": "/ka/", "color": "#14b8a6", "intro": "一张飞卡 · 天天大牌", "user": "admin", "pwd": "admin123"};
+window.TABLE_ICONS = {"products": "🛍️", "goods": "🛍️", "live_rooms": "📺", "rooms": "📺", "live_comments": "💬", "comments": "💬", "cart": "🛒", "orders": "🧾", "users": "👥", "group_buys": "🔥", "coupons": "🎟️", "stores": "🏪", "suppliers": "🏭", "members": "💳", "skus": "📦", "posts": "📝", "deliveries": "🚚", "warehouses": "🏬", "brands": "🏷️", "customs": "🛃", "riders": "🛵", "categories": "🗂️", "reviews": "⭐"};
