@@ -1,27 +1,48 @@
-# 飞卡会员制折扣电商
+# 🎫 飞卡会员制折扣电商 (feika-member)
 
-> 一张飞卡 · 天天大牌
+> 打造高品质会员制折扣电商平台，为会员提供专属优惠与尊贵体验。
 
-零依赖（Python 标准库 + SQLite）的 飞卡，飞系电商系列成员。
+## ✨ 项目简介
 
-## 运行
+飞卡会员是一个专注于会员制折扣的电商平台，通过多层级会员体系与积分奖励机制，为用户提供差异化的购物体验与专属折扣权益。
+
+## 🚀 核心特性
+
+- 👑 **会员等级体系** — 多级会员制度，不同等级享受不同折扣权益
+- 💰 **积分体系** — 消费累积积分，积分可兑换商品或抵扣现金
+- 🏷️ **专属折扣** — 会员独享折扣价格，越高等级折扣越大
+- 💳 **付费会员** — 付费加入高级会员，解锁更多专属权益
+- 📊 **会员数据分析** — 精细化会员运营，提升复购率
+- 🎁 **会员专属活动** — 定期推出会员日、专属优惠券等活动
+
+## 🛠️ 快速开始
 
 ```bash
-cd backend
-python server.py
-# 访问 http://127.0.0.1:8108/ ，三角色: admin/admin123 · ops01/ops123456 · view01/view123456
+# 克隆仓库
+git clone https://github.com/dukema81/feika-member.git
+cd feika-member
+
+# 安装依赖
+npm install
+
+# 启动开发服务器
+npm run dev
+
+# 构建生产版本
+npm run build
 ```
 
-## 测试
+## 📦 技术栈
 
-```bash
-python -m pytest tests/ -q
-```
+- 前端框架 + UI 组件库
+- 状态管理 + 路由
+- API 接口 + 数据库
+- 会员系统 + 支付集成
 
-## 目录
+## 📄 许可证
 
-- backend/  通用引擎 engine.py + 规格 spec.json + 服务入口 server.py
-- frontend/ 原生 JS SPA（门店 + 统计 + 规格驱动后台）
-- tools/    专属 Logo（icon.svg）+ UI 巡检（ui_check.py，零依赖探活+截图）
-- docs/     建设方案
-- tests/    API 集成测试（真实起服务全链路断言）
+本项目基于 [MIT License](LICENSE) 开源许可协议。
+
+---
+
+Made with ❤️ by dukema81
